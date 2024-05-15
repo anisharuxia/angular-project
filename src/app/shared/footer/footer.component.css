@@ -1,0 +1,43 @@
+footer{
+    background-color: #2C4246;
+     display: flex;
+     gap: 40px;
+     justify-content: space-around;
+     height: 276px;
+     
+}
+
+footer div{
+  margin-top: 50px;
+ 
+ 
+}
+
+footer div h3 {
+    color: aliceblue;
+    font-weight: 500;
+}
+
+hr{
+ width: 80px;
+}
+
+div.icons a i{
+ padding: 18px;
+ font-size: 20px;
+ 
+}
+footer div ul li{
+    list-style: none;
+   
+
+}
+footer div ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    
+}
+
+
+
