@@ -1,8 +1,11 @@
 import { Component, OnInit, inject } from '@angular/core';
-import { AppComponent } from '../../app.component';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+
+import {  HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
-import { HtmlTagDefinition } from '@angular/compiler';
+import { ApiService } from '../../shared/api.service';
+import { product } from './productmodel';
+
+
 
 
 @Component({
@@ -12,11 +15,19 @@ import { HtmlTagDefinition } from '@angular/compiler';
   templateUrl: './homw.component.html',
   styleUrl: './homw.component.css'
 })
-export class HomwComponent {
-  toplist =[] 
-  generateproduct(){
-    
+export class HomwComponent implements OnInit  {
+  data!:product[]
+  constructor(private api:ApiService){}
+
+  ngOnInit(): void {
+    this.displayproducts();
   }
- 
+
+  displayproducts(){
+    this.api.getproduct().subscribe(res=>{
+    this.data =res;
+    console.log(res);
+    })
+  }
  }
 

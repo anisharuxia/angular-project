@@ -111,17 +111,49 @@ main section.popularproducts hr{
 }
  
 main section.popularproducts div#toplist{
-   height: 300px;
-   width: 800px;
+  
+   width: 860px;
+   
   border: 1px solid #05BCCA;
-   margin-left: 350px;
+   margin-left: 320px;
    margin-top: 40px;
-}
-main section.popularproducts button.show{
-    margin-left: 710px;
-    border-radius: 40px;
-    background-color: #05BCCA;
-    color: aliceblue;
+   padding-bottom: 20px;
+   display: flex;
 }
 
+.card img{
+    width: 250px;
+    height: 200px;
+    margin-bottom:30px ;
+    object-fit: contain;
+    
+}
+.card{
+    width: 190px;
+}
+
+/* body{
+    margin: 0;
+    font-weight: 200;
+    line-height: 1.5385;
+    color: #05BCCA;
+    text-align: left;
+
+} */
+
+.card-img-actions{
+    position: relative;
+}
+
+.text-default{
+    text-decoration: none;
+    color: #05BCCA;
+    font-size: 15px;
+}
+
+
+div#toplist div.card-body{
+   height: 220px; 
+
+}
 
