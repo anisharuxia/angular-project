@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { FooterComponent } from '../../shared/footer/footer.component';
 import { AppComponent } from '../../app.component';
 import { ApiService } from '../../shared/api.service';
@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-catalog',
   standalone: true,
-  imports: [FooterComponent, RouterOutlet, AppComponent, CommonModule],
+  imports: [FooterComponent, RouterOutlet, AppComponent, CommonModule,RouterLink],
   templateUrl: './catalog.component.html',
   styleUrl: './catalog.component.css'
 })

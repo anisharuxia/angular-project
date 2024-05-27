@@ -6,10 +6,10 @@ import { product } from '../features/catalog/productmodel';
   providedIn: 'root'
 })
 export class ApiService {
-
+ 
   constructor(private http:HttpClient) { }
   getproduct(){
-    return this.http.get<product[]>("https://dummyjson.com/products")
+    return this.http.get<product[]>(" https://dummyjson.com/products")
   }
 }
 
