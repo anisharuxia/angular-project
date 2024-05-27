@@ -1,9 +1,10 @@
 main header{
     display: flex;
-    height: 60px;
+    height: 80px;
     border-bottom: 1px solid #05BCCA;
     position: relative;
-    background-color: #012426;
+    background-color:#012426;
+    
     
 }
 main header ul {
@@ -12,7 +13,7 @@ main header ul {
 
     gap: 50px ;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 main header ul li a{
     text-decoration: none;

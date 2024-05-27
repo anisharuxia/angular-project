@@ -66,13 +66,7 @@ main header ul li {
     list-style: none;
 }
 
-main header div.guitar i{
-    color: #C46A2B;
-    font-size: 30px;
-    margin-left: 100px;
-    margin-top: 10px;
-   
-}
+
 
  header div.registericon {
   display: flex;
