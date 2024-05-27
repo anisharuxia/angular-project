@@ -1,1 +1,37 @@
-<p>catalog works!</p>
+
+<div id="toplist">
+    <section>
+    <div class="container-fluid" >
+      <div class="row">
+         <div class="col-md-2 mt-3" *ngFor="let item of data?.products">
+             <div class="card mt-2">
+                 <div class="card-body">
+                     <div class="card-img-actions">
+                         <img src="{{item.thumbnail}} " class="card-image img-fluid" alt="">
+                     </div>
+                 </div> 
+
+
+
+                 <div class="card-body bg-light text-center ">
+                     <div>
+                         <h6>
+                             <a class="text-default" href=""> {{item.title}} </a>
+                         </h6>
+                     </div>
+                      <h3 class="mb-0 font-weight-semibold">$500</h3>
+                      <button class="btn btn-sm btn-warning mt-2"><i class="fa fa-solid fa-info mr-2"></i> view details</button>
+                       <button class="btn btn-sm btn-warning mt-2"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+                 </div>
+             </div>
+         </div>
+      </div>
+
+
+   </div>
+    </section>
+
+
+
+<app-footer></app-footer>
+

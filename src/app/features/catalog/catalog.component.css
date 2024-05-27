@@ -1,0 +1,103 @@
+.card img{
+    width: 250px;
+    height: 200px;
+    margin-bottom:30px ;
+    object-fit: contain;
+    
+}
+.card{
+    width: 190px;
+    
+}
+
+/* body{
+    margin: 0;
+    font-weight: 200;
+    line-height: 1.5385;
+    color: #05BCCA;
+    text-align: left;
+
+} */
+
+.card-img-actions{
+    position: relative ;
+}
+
+.text-default{
+    text-decoration: none;
+    color: #05BCCA;
+    font-size: 15px;
+}
+
+
+div#toplist div.card-body{
+   height: 220px; 
+
+}
+
+
+
+
+
+main header{
+    display: flex;
+    height: 60px;
+    border-bottom: 1px solid #05BCCA;
+    position: relative;
+    
+}
+main header ul {
+    display: flex;
+    justify-content: space-around;
+
+    gap: 50px ;
+    justify-content: center;
+    margin-top: 10px;
+}
+main header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #A1C3C9;
+}
+main header ul li a:hover{
+    color: #147a81;
+}
+main header ul li {
+    list-style: none;
+}
+
+main header div.guitar i{
+    color: #C46A2B;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+   
+}
+
+ header div.registericon {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  margin-left: 800px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+
+}
+header div.registericon button{
+    border-radius: 50px;
+    background-color: #012426;
+    border-color: #05BCCA;
+    padding: 0px 10px 0px 10px ;
+    
+}
+header div.registericon button i{
+   color: #05BCCA;
+}
+
+div#toplist{
+   margin-bottom: 50px;
+}
+
+
+
+
