@@ -17,4 +17,5 @@ export class ProductDetailComponent implements OnInit{
     console.log('product id is ', productid)
   }
 
+  
 }
