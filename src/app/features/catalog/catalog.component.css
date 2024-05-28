@@ -1,10 +1,49 @@
+.card img{
+    width: 250px;
+    height: 200px;
+    margin-bottom:30px ;
+    object-fit: contain;
+    
+}
+.card{
+    width: 190px;
+    
+}
+
+/* body{
+    margin: 0;
+    font-weight: 200;
+    line-height: 1.5385;
+    color: #05BCCA;
+    text-align: left;
+
+} */
+
+.card-img-actions{
+    position: relative ;
+}
+
+.text-default{
+    text-decoration: none;
+    color: #05BCCA;
+    font-size: 15px;
+}
+
+
+div#toplist div.card-body{
+   height: 220px; 
+
+}
+
+
+
+
+
 main header{
     display: flex;
-    height: 80px;
+    height: 60px;
     border-bottom: 1px solid #05BCCA;
     position: relative;
-    background-color:#012426;
-    
     
 }
 main header ul {
@@ -13,8 +52,7 @@ main header ul {
 
     gap: 50px ;
     justify-content: center;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin-top: 10px;
 }
 main header ul li a{
     text-decoration: none;
@@ -27,6 +65,7 @@ main header ul li a:hover{
 main header ul li {
     list-style: none;
 }
+
 
 
  header div.registericon {
@@ -48,3 +87,14 @@ header div.registericon button{
 header div.registericon button i{
    color: #05BCCA;
 }
+
+div#toplist{
+   margin-bottom: 50px;
+   background-color:#012426;
+}
+
+.main-body{
+    border-radius: 50px;
+}
+
+
