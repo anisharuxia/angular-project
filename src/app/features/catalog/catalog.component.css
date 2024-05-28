@@ -90,8 +90,11 @@ header div.registericon button i{
 
 div#toplist{
    margin-bottom: 50px;
+   background-color:#012426;
 }
 
-
+.main-body{
+    border-radius: 50px;
+}
 
 

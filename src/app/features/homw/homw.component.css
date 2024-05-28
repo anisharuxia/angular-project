@@ -9,8 +9,15 @@ section.updateproductlist{
     background-image: url(https://static.wixstatic.com/media/c837a6_837f9cd4f59146c3ad47a2bd882fedfd~mv2.png/v1/fill/w_1875,h_706,al_r,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_837f9cd4f59146c3ad47a2bd882fedfd~mv2.png);
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: contain;
     width: 100%;
-    height: 500px;
+    height: 550px;
+    border-radius: 30px;
+    animation-name: cover;
+    animation-duration: 7s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    transition: smooth;
     
     
     
@@ -28,6 +35,12 @@ section.updateproductlist h1{
     color: rgb(41, 97, 97);
     
 
+}
+
+hr{
+    width: 200px;
+    margin-left: 100px;
+    font-size: 50px;
 }
 section.updateproductlist div h1 span{
     color: #05BCCA;
@@ -75,7 +88,7 @@ main section.popularproducts div#toplist{
     width: 250px;
     height: 200px;
     margin-bottom:30px ;
-    object-fit: contain;
+    object-fit: cover;
     
 }
 .card{
@@ -108,8 +121,17 @@ div#toplist div.card-body{
 }
 
 div.row:hover{
-  background-color:rgb(180, 49, 49);
+  background-color:#012426;
   
 
 }
 
+div.main-body{
+    border-radius: 50px;
+}
+@keyframes cover {
+    0%{background-image: url(https://static.wixstatic.com/media/c837a6_837f9cd4f59146c3ad47a2bd882fedfd~mv2.png/v1/fill/w_1875,h_706,al_r,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_837f9cd4f59146c3ad47a2bd882fedfd~mv2.png);}
+    25%{background-image: url(https://i.pcmag.com/imagery/articles/07CCeyR6qMqdHu5NDGjYw8D-1..v1706970349.jpg);}
+    50%{background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/02/apple-iphone-14-plus-vs-samsung-galaxy-s23.jpg);}
+    
+}
