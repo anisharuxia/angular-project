@@ -14,7 +14,7 @@ export class ApiService {
 }
 
 getproductbyid(id:string){
- return this.http.get('https://dummyjson.com/products/category/smartphones'+id)
+ return this.http.get('https://dummyjson.com/products/'+id)
 }
 
 }
