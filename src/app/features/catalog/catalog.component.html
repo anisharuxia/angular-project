@@ -22,8 +22,8 @@
                      </div>
                       <h3 class="mb-0 font-weight-semibold">${{item.price}}</h3>
                       <button routerLink="/view-details/{{item.id}}"  class="btn btn-sm btn-warning mt-2"><i class="fa fa-solid fa-info mr-2"></i>&nbsp;&nbsp; view details</button>
-                       <button class="btn btn-sm btn-warning mt-2"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
-                       <button class="btn btn-sm btn-danger mt-2"><i class="fa fa-delete-plus mr-2"></i> Delete</button>
+                       <button (click)="addtocart(item)" class="btn btn-sm btn-warning mt-2"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>&nbsp;
+                       <button (click)="removeitem(item)" class="btn btn-sm btn-danger mt-2"> <i class="fa fa-remove mr-2"></i>Delete item</button>
                        
                  </div>
              </div>

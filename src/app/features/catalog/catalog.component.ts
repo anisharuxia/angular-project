@@ -31,4 +31,13 @@ export class CatalogComponent implements OnInit  {
           console.log(res)
     })
   }
+
+  addtocart(item:product){
+  this.api.addtocard(item);
+  }
+
+  removeitem(item:product){
+   this.api.removecartitem(item);
+
+  }
 }
