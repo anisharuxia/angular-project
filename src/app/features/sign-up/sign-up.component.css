@@ -1,0 +1,27 @@
+form.sign{
+ background-color:#1a6567;
+}
+
+body{
+    padding-top: 100px;
+    background-color:#012426 ;
+    height: 100vh;
+}
+
+input{
+    width: 500px;
+    margin-left:100px;
+    border-radius: 50px;
+}
+
+label{
+    margin-left: 100px;
+}
+
+h1{
+  text-align: center;  
+}
+
+
+
+
