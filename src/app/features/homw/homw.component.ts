@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 import { Component, OnInit, inject } from '@angular/core';
 
 import {  HttpClientModule } from '@angular/common/http';
@@ -9,27 +9,20 @@ import { FooterComponent } from '../../shared/footer/footer.component';
 
 
 
-=======
-import { Component, OnInit } from '@angular/core';
->>>>>>> Stashed changes
+
+
 
 @Component({
   selector: 'app-homw',
   standalone: true,
-<<<<<<< Updated upstream
+
   imports: [CommonModule,FooterComponent ],
   templateUrl: './homw.component.html',
   styleUrl: './homw.component.css'
 })
-export class HomwComponent   {
-  
+export class HomwComponent implements OnInit  {
+  ngOnInit(): void {
+    
+  }
  }
-=======
-  imports: [],
-  templateUrl: './homw.component.html',
-  styleUrl: './homw.component.css'
-})
-export class HomwComponent  {
->>>>>>> Stashed changes
-
-}
+ 
