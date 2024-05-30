@@ -1,0 +1,55 @@
+body{
+    background-color: #012426;
+     height: 800px;
+}
+
+h1{
+ color: white;
+ text-align: center;
+ font-weight: 200;
+ padding-top: 100px;
+}
+
+
+
+
+body section div.location i{
+    color: aqua;
+    font-size: 50px;
+    margin:20px 0px 20px 30px;
+}
+
+body section div.location {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 50px;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+div.title{
+  display: flex; 
+  justify-content: space-around;
+
+}
+
+div.title h3{
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+
+section.information{
+    display: flex;
+    justify-content: space-around;
+}
+
+section.information h3{
+    color: aliceblue;
+    font-size: 19px;
+}
+section.information  p{
+    color: aliceblue;
+}
+
+

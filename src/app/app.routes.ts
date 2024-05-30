@@ -5,7 +5,8 @@ import { producerAccessed } from '@angular/core/primitives/signals';
 import { ProductDetailComponent } from './features/product-detail/product-detail.component';
 import { SignUpComponent } from './features/sign-up/sign-up.component';
 import { CartPageComponent } from './features/cart-page/cart-page.component';
-import { SuccsesComponent } from './features/succses/succses.component';
+
+import { ContactComponent } from './features/contact/contact.component';
 
 export const routes: Routes = [
     
@@ -25,6 +26,5 @@ export const routes: Routes = [
     {path: 'signup',
     component:SignUpComponent},
     {path: 'cart-page', component:CartPageComponent},
-    {path:'succses',component:SuccsesComponent}
-
+    {path:'contact', component: ContactComponent}
 ];

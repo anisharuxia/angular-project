@@ -4,6 +4,7 @@ import { AppComponent } from '../../app.component';
 import { FormsModule, NgForm } from '@angular/forms';
 import { FooterComponent } from '../../shared/footer/footer.component';
 
+
 @Component({
   selector: 'app-sign-up',
   standalone: true,
@@ -19,15 +20,13 @@ user: any ={
 
 };
 
+
+
  onsubmit(form:NgForm){
    console.log(this.user)
+   alert('succses you have registred')
 
-  
-   
-   
  }
-
-
  
 
 }

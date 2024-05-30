@@ -7,7 +7,8 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 
 import { routes } from './app.routes';
 import { provideHttpClient } from '@angular/common/http';
-
+import { provideToastr } from 'ngx-toastr';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -17,7 +18,8 @@ NgModule({
   ],
   imports:[
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers:[],
   bootstrap:[AppComponent]
@@ -26,5 +28,8 @@ NgModule({
 
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes), provideHttpClient()]
+  
+  providers: [provideRouter(routes), provideHttpClient(),
+    provideToastr()
+  ]
 };
