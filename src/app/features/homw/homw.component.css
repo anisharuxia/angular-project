@@ -82,6 +82,7 @@ main section.popularproducts div#toplist{
    margin-left: 320px;
    margin-top: 40px;
    padding-bottom: 20px;
+   padding-left: 50px;
    display: flex;
 }
 

@@ -19,6 +19,7 @@ NgModule({
   imports:[
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     ReactiveFormsModule
   ],
   providers:[],

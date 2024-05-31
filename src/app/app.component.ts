@@ -6,6 +6,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { CatalogComponent } from './features/catalog/catalog.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ApiService } from './shared/api.service';
+import { FormGroup, NgModel } from '@angular/forms';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 
 @Component({
@@ -17,6 +19,8 @@ import { ApiService } from './shared/api.service';
   HomwComponent, 
   FooterComponent, 
   CatalogComponent,
+  AppRoutingModule,
+  
   
   RouterLink,
   HttpClientModule,
