@@ -7,12 +7,16 @@ main header{
     
     
 }
-main header ul {
+div.menuicon{
+    display: none;
+}
+
+main header div.desktopmenu ul  {
     display: flex;
     justify-content: space-around;
 
     gap: 50px ;
-    justify-content: center;
+  justify-content: center;
     margin-top: 20px;
     margin-left: 50px;
 }
@@ -24,12 +28,15 @@ main header ul li a{
 main header ul li a:hover{
     color: #147a81;
 }
-main header ul li {
+main header   ul li {
     list-style: none;
+    
+    
+    
 }
 
 
- header div.registericon {
+ header  div.registericon {
   display: flex;
   gap: 50px;
   justify-content: space-around;
@@ -49,4 +56,82 @@ header div.registericon button{
 }
 header div.registericon button i{
    color: #05BCCA;
+}
+
+
+@media screen and (max-width:2560px) {
+    header div.registericon{
+     margin-left: 1700px;
+     
+    } 
+}
+
+@media screen and (max-width:1440px) {
+    header div.registericon{
+        margin-left: 700px;
+    } 
+}
+
+@media screen and (max-width:1024px) {
+    main header ul{
+        padding-right: 150px;
+        gap: 30px;
+    }
+   
+
+    header div.registericon{
+      margin-left: 250px;
+    }
+    
+
+}
+
+@media screen and (max-width:768px) {
+   
+    main header div.desktopmenu  ul {
+        list-style: none;
+        display: inline-block;
+        font-size: 18px;
+        margin-left:26px ;
+        transition:0.4s ease-in-out;
+        
+        
+    }
+
+    div.desktopmenu{
+        position: fixed;
+        right: -280px;
+        top: 75px;
+        background:#05BCCA;
+        width: 280px;
+        height: 700px;
+        z-index: 1;
+
+    }
+    main header div.desktopmenu  ul li{
+         display: block;
+         text-align: left;
+         margin: 0;
+         padding: 10px 0px 10px 26px;
+         border-bottom: 1px solid #012426;
+    }
+    main header div.menuicon{
+        display:block;
+        color: #05BCCA;
+        font-size: 40px;
+        padding: 10px;
+    }
+    main header .mobile_menu{
+        right: 0;
+        transition: 0.4s ease-in-out;
+    }
+    header div.registericon{
+        margin-left: 500px;
+    }
+}
+
+@media screen and (max-width:426px){
+    main header div.registericon{
+        margin-left: 150px;
+    }
 }

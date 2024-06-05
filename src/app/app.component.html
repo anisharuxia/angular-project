@@ -1,8 +1,11 @@
 
 <main>
     <header>
-         
-            <ul>
+         <div class="menuicon" (click)="openmenu()">
+            <i class="{{menu_icon}}"></i>
+         </div>
+         <div class="desktopmenu" [class.mobile_menu]="menuValue" >
+            <ul >
                 <li>
                     <a routerLink="/">Home</a>
                 </li>
@@ -10,9 +13,12 @@
                     <a routerLink="/Catalog" >Products</a>
                 </li>
                 <li>
-                    <a routerLink="/contact">Contact us</a>
+                    <a routerLink="/contact">Contact </a>
                 </li>
             </ul>
+         </div>
+
+               
              
             <div class="registericon">
                
@@ -28,6 +34,7 @@
     </header>
 </main>
  
+
 
  
 

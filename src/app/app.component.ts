@@ -39,5 +39,13 @@ export class AppComponent implements OnInit {
       this.cartitems = res.length;
     }) 
   }
+   
+  menuValue:boolean=false;
+  menu_icon:string='fa-solid fa-bars'
+
+  openmenu(){
+    this.menuValue=!this.menuValue;
+  }
+
   title = 'last-project';
 }

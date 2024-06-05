@@ -138,6 +138,57 @@ div.main-body{
     
 }
 
+.secondcardblock{
+    display: none;
+}
 
 
+@media  screen and (max-width:2560px) {
+    main section.popularproducts div#toplist{
+        margin-left: 850px;
+    }
+    main section.popularproducts hr{
+        margin-left: 1050px;
+        width: 400px;
+    }
+}
 
+@media screen and (max-width:1440px) {
+    main section.popularproducts div#toplist{
+        margin-left: 300px;
+    }
+
+    main section.popularproducts hr{
+        margin-left: 500px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    main section.popularproducts div#toplist{
+       margin-left: 100px;
+    }
+    main section.popularproducts hr{
+        margin-left: 410px;
+        width: 200px;
+    }
+
+    main section.popularproducts div#toplist{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .secondcardblock{
+        display: block;
+    }
+
+    
+
+    .secondcardblock{
+        display: flex;
+        
+    }
+ 
+    
+  
+}

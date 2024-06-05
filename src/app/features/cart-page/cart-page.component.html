@@ -84,7 +84,8 @@
 
 
 <!-- Empty card -->
-<ng-container *ngIf="showproduct.length ==0">
+<div class="emptycard">
+<ng-container  *ngIf="showproduct.length ==0">
     <div class="card">
         <div class="center">
             <h4>Your Cart is Empty</h4>
@@ -93,5 +94,6 @@
         </div>v
     </div>
 </ng-container>
+</div>
 
 </body>

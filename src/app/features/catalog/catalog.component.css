@@ -91,10 +91,18 @@ header div.registericon button i{
 div#toplist{
    margin-bottom: 50px;
    background-color:#012426;
+   z-index: 0;
 }
 
 .main-body{
     border-radius: 50px;
 }
 
+
+@media screen and (max-width:1024px) {
+    div.carditem{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 

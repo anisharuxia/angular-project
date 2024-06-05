@@ -12,3 +12,16 @@
 body{
 color:#012426 ;
 }
+
+@media screen and (max-width:2560px) {
+   div.card{
+     margin-top: 100px;
+   }
+}
+
+@media screen and (max-width:1440px) {
+   div.card{
+      margin-top: 200px;
+   }
+}
+

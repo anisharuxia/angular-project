@@ -23,5 +23,42 @@ h1{
 }
 
 
+@media screen and (max-width:2560px){
+    div.formvalidate{
+        margin-left: 290px;
+    }
+    form.sign{
+        height: 500px;
+    }
+    body{
+        height: 800px;
+    }
+    div.registration{
+        margin-left: 400px;
+    }
+
+}
+
+@media screen and (max-width:1440px) {
+    div.formvalidate{
+        margin-left: 50px;
+    }
+    input{
+        width: 400px;
+    }
+    div.registration{
+        margin-left: 150px;
+    }
+}
+
+@media  screen and (max-width:1024px) {
+    div.formvalidate{
+        margin-left: 50px;
+    }
+    input{
+        width: 200px;
+    }
+}
+
 
 
