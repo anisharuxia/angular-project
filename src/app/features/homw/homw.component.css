@@ -145,10 +145,10 @@ div.main-body{
 
 @media  screen and (max-width:2560px) {
     main section.popularproducts div#toplist{
-        margin-left: 850px;
+        margin-left: 350px;
     }
     main section.popularproducts hr{
-        margin-left: 1050px;
+        margin-left: 550px;
         width: 400px;
     }
 }
@@ -187,15 +187,12 @@ div.main-body{
     
 }
 
-@media screen and(max-width:426px) {
+@media screen and (max-width:1503px) {
     main section.popularproducts div#toplist{
-        display: flex;
-        flex-direction: column;
+       margin: 50px 100px 0px 350px;
     }
-
-    
-  
-   
+    main section.popularproducts hr{
+        margin: 0px 100px 0px 550px;
+    }
 }
-
 
