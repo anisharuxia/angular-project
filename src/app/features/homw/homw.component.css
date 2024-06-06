@@ -155,7 +155,7 @@ div.main-body{
 
 @media screen and (max-width:1440px) {
     main section.popularproducts div#toplist{
-        margin-left: 300px;
+        margin-left: -600px;
     }
 
     main section.popularproducts hr{
@@ -180,15 +180,22 @@ div.main-body{
 @media screen and (max-width:768px) {
     .secondcardblock{
         display: block;
+          display: flex;
+          margin-left: 10px;
     }
 
     
+}
 
-    .secondcardblock{
+@media screen and(max-width:426px) {
+    main section.popularproducts div#toplist{
         display: flex;
-        
+        flex-direction: column;
     }
- 
+
     
   
+   
 }
+
+

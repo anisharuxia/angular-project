@@ -25,3 +25,8 @@ color:#012426 ;
    }
 }
 
+@media screen and (max-width:1503px) {
+   div.card{
+      margin-top: 200px;
+   }
+}
