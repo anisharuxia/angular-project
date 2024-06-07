@@ -25,7 +25,7 @@ h1{
 
 @media screen and (max-width:2560px){
     div.formvalidate{
-        margin-left: 290px;
+        /* margin-left: 290px; */
     }
     form.sign{
         height: 500px;
