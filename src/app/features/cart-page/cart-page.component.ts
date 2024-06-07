@@ -21,7 +21,7 @@ export class CartPageComponent implements OnInit  {
   showproduct:any=[]
   public totalamount:number=0;
   public addressform = false;
-  myform: FormGroup|any;
+  myform: any|FormGroup;
 
    
   

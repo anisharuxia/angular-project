@@ -121,3 +121,9 @@ div#toplist{
    
 }
 
+@media screen and (max-width:426px){
+    input{
+        width: 150px;
+        margin: 0px auto;
+    }
+}

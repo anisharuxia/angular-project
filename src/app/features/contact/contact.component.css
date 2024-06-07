@@ -52,4 +52,38 @@ section.information  p{
     color: aliceblue;
 }
 
+.title h3 i{
+    display: none;
+}
+
+.responsiveinfo{
+    display: none;
+}
+
+
+@media screen and (max-width:426px) {
+    
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon,.phone,.email{
+        display: none;
+    }
+    .title h3 i{
+     display: block;
+    }
+
+   section.information{
+    display: none;
+   }
+   .responsiveinfo{
+    display: block;
+   }
+
+   body{
+    height: 900px;
+   }
+}
 
